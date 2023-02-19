@@ -10,7 +10,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.container{
+.traffic-light{
     background: black;
     height: 545px;
     width: 200px;
@@ -38,4 +38,8 @@
     border-radius: 50%;
     width: 175px;
     height: 175px;
+}
+
+.glow{
+    box-shadow: 0px 0px 9px 4px #747deb;
 }
