@@ -3,9 +3,10 @@ import React, { useState } from "react";
 
 const Home = () => {
 	const [color, setColor] = useState("");
+	//const [alternate, setAlternate] = useState("");
 
 	return (
-		<div className="container d-flex">
+		
 		<div className="container traffic-light ">
 			<div onClick={()=>setColor("red")} className={"red"+ (color==="red"? " glow": "" )}>
 
@@ -17,10 +18,7 @@ const Home = () => {
 
 			</div>
 		</div>
-		<div className="container d-flex">
-		<button type="button" class="btn btn-primary">Primary</button>
-		</div>
-		</div>
+		
 	);
 };
 
